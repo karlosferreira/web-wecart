@@ -31,138 +31,9 @@
                                 </v-card-actions> -->
                             </v-card>
                         </v-flex>
-                    </v-layout>           
+                    </v-layout>         
                 </v-container>
-            </v-card>
-
-            <v-card class="category-card">
-                <v-container
-                    fluid
-                    style="min-height: 0;"
-                    grid-list-lg
-                >
-                    <div class="row"><h2>Bebidas</h2></div>
-                    <!-- <v-layout row wrap class="dash-list" v-bind:key="source.id" v-for="source in sources"> -->
-                    <v-layout row wrap class="dash-list" v-bind:key="demo.id" v-for="demo in demos">                        
-                        <!-- <v-flex xs12 class="card-box"  @click.stop="rightDrawer = !rightDrawer; getRequests(demo.owner.login,demo.name)"> -->
-                        <v-flex xs12 class="card-box" >                            
-                            <v-card class="white--text card-info">
-                                <v-card-media
-                                v-bind:src="demo.avatar_url"
-                                height="110px"
-                                cover
-                                >
-                                </v-card-media>                                
-                                <v-card-title primary-title>
-                                    <!-- <div class="headline"><h4 class="item-title">{{appendTitle(source.name)}}</h4></div> -->
-                                    <div class="headline"><h4 class="item-title">{{appendTitle(demo.item_name)}}</h4></div>
-                                    <v-spacer></v-spacer>
-                                    <span class="item-price">R$ 1.099,99</span>
-                                </v-card-title>                     
-                                <!-- <v-card-actions>
-                                    <v-btn flat dark color="blue-grey lighten-2" class="item-add btn-delivery"><v-icon left dark></v-icon>Comprar</v-btn>
-                                </v-card-actions> -->
-                            </v-card>
-                        </v-flex>
-                    </v-layout>           
-                </v-container>
-            </v-card>
-
-            <v-card class="category-card">
-                <v-container
-                    fluid
-                    style="min-height: 0;"
-                    grid-list-lg
-                >
-                    <div class="row"><h2>Biscoitos</h2></div>
-                    <!-- <v-layout row wrap class="dash-list" v-bind:key="source.id" v-for="source in sources"> -->
-                    <v-layout row wrap class="dash-list" v-bind:key="demo.id" v-for="demo in demos">                        
-                        <!-- <v-flex xs12 class="card-box"  @click.stop="rightDrawer = !rightDrawer; getRequests(demo.owner.login,demo.name)"> -->
-                        <v-flex xs12 class="card-box" >                            
-                            <v-card class="white--text card-info">
-                                <v-card-media
-                                v-bind:src="demo.avatar_url"
-                                height="110px"
-                                cover
-                                >
-                                </v-card-media>                                
-                                <v-card-title primary-title>
-                                    <!-- <div class="headline"><h4 class="item-title">{{appendTitle(source.name)}}</h4></div> -->
-                                    <div class="headline"><h4 class="item-title">{{appendTitle(demo.item_name)}}</h4></div>
-                                    <v-spacer></v-spacer>
-                                    <span class="item-price">R$ 1.099,99</span>
-                                </v-card-title>                     
-                                <!-- <v-card-actions>
-                                    <v-btn flat dark color="blue-grey lighten-2" class="item-add btn-delivery"><v-icon left dark></v-icon>Comprar</v-btn>
-                                </v-card-actions> -->
-                            </v-card>
-                        </v-flex>
-                    </v-layout>           
-                </v-container>
-            </v-card>
-
-            <v-card class="category-card">
-                <v-container
-                    fluid
-                    style="min-height: 0;"
-                    grid-list-lg
-                >
-                    <div class="row"><h2>Doces</h2></div>
-                    <!-- <v-layout row wrap class="dash-list" v-bind:key="source.id" v-for="source in sources"> -->
-                    <v-layout row wrap class="dash-list" v-bind:key="demo.id" v-for="demo in demos">                        
-                        <!-- <v-flex xs12 class="card-box"  @click.stop="rightDrawer = !rightDrawer; getRequests(demo.owner.login,demo.name)"> -->
-                        <v-flex xs12 class="card-box" >                            
-                            <v-card class="white--text card-info">
-                                <v-card-media
-                                v-bind:src="demo.avatar_url"
-                                height="110px"
-                                cover
-                                >
-                                </v-card-media>                                
-                                <v-card-title primary-title>
-                                    <!-- <div class="headline"><h4 class="item-title">{{appendTitle(source.name)}}</h4></div> -->
-                                    <div class="headline"><h4 class="item-title">{{appendTitle(demo.item_name)}}</h4></div>
-                                    <v-spacer></v-spacer>
-                                    <span class="item-price">R$ 1.099,99</span>
-                                </v-card-title>                     
-                                <!-- <v-card-actions>
-                                    <v-btn flat dark color="blue-grey lighten-2" class="item-add btn-delivery"><v-icon left dark></v-icon>Comprar</v-btn>
-                                </v-card-actions> -->
-                            </v-card>
-                        </v-flex>
-                    </v-layout>           
-                </v-container>
-            </v-card>                          
-                 
-            <v-navigation-drawer
-                temporary
-                :right="right"
-                v-model="rightDrawer"
-                fixed
-                app
-                class="aside-open"
-                width=500
-            >
-                <v-list two-line subheader>
-                <v-subheader inset>
-                    <!-- <button id="close-box"><v-icon medium color="grey lighten-4">clear</v-icon></button> -->
-                    Pull Requests
-                </v-subheader>
-                <v-progress-circular indeterminate color="primary" class="loading"></v-progress-circular>
-                <div class="request-box">
-                    <v-list-tile v-for="request in requests" :key="request.id" avatar class="hr-bottom" v-bind:href="request.html_url"  target="_blank">
-                        <v-list-tile-avatar>
-                            <img :src="request.user.avatar_url">
-                        </v-list-tile-avatar>
-                        <v-list-tile-content>
-                            <v-list-tile-title>{{request.title}}</v-list-tile-title>
-                            <v-list-tile-sub-title>{{request.body}}</v-list-tile-sub-title>
-                        </v-list-tile-content>
-                        <v-subheader>{{dateString(request.created_at)}}</v-subheader>                    
-                    </v-list-tile>                
-                </div>
-                </v-list>
-            </v-navigation-drawer> 
+            </v-card>                      
         </div>                      
     </div>
 </template>
@@ -175,9 +46,6 @@ export default {
             sources: [],
             source: '',
             requests: [],
-            request: '',
-            right: true,
-            rightDrawer: false,
             demos: [
                 {
                     'id': 0,
@@ -221,11 +89,11 @@ export default {
                 },
                 {
                     'id': 5,
-                    'cat_name': 'Promoções',
-                    'item_name': 'Guaraná Antártica 350ml',
-                    'avatar_url': 'https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true',
-                    'delivery_price': 'R$ 1.099,90',
-                    'shipping_price': 'R$ 999,90'
+                    'cat_name': 'permalink',
+                    'item_name': 'Ver todos',
+                    'avatar_url': 'promo-all',
+                    'delivery_price': '',
+                    'shipping_price': ''
                 }                                                                                 
             ]                        
         }
