@@ -43,7 +43,11 @@
 
 <script>
 export default {
-
+  name: 'ListCategories',
+  // components: {},
+  // data () {
+  //   return {}
+  // }
 }
 </script>
 
@@ -70,8 +74,5 @@ export default {
     .categories-box .ma-2:hover {
         background: #17a2b8!important;
     }
-    .loading-box {
-        padding: 0!important;
-    }  
 /* end categories css */
 </style>

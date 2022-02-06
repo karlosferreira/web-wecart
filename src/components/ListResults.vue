@@ -43,9 +43,9 @@ export default {
     name: 'list-results',
     data () {
         return{
-            sources: [],
-            source: '',
-            requests: [],
+            // sources: [],
+            // source: '',
+            // requests: [],
             demos: [
                 {
                     'id': 0,

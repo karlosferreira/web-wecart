@@ -6,14 +6,14 @@
         <v-progress-circular indeterminate color="primary" class="dash-loading"></v-progress-circular>
       </div>
       <router-view/>
+      <ProductInfo/>
     </v-content>
-    <ProductInfo/>
   </v-app>
 </template>
 
 <script>
-import ProductInfo from '@/components/ProductInfo';
 import Header from '@/components/Header';
+import ProductInfo from '@/components/ProductInfo';
 
 export default {
   name: 'App',
@@ -25,6 +25,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+  .loading-box {
+    padding: 0!important;
+  }
   .full-loading {
     display: table;
     width: 35px;

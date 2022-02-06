@@ -9,11 +9,8 @@
         width=500
     >
         <v-list two-line subheader>
-
             <v-subheader inset>DETALHES DO PRODUTO</v-subheader>
-
             <v-progress-circular indeterminate color="primary" class="loading"></v-progress-circular>
-            
             <div class="request-box">
                 <v-list-tile v-for="request in requests" :key="request.id" avatar class="hr-bottom" v-bind:href="request.html_url"  target="_blank">
                     <v-list-tile-avatar>
@@ -24,7 +21,7 @@
                         <v-list-tile-sub-title>{{request.body}}</v-list-tile-sub-title>
                     </v-list-tile-content>
                     <v-subheader>{{dateString(request.created_at)}}</v-subheader>                    
-                </v-list-tile>                
+                </v-list-tile>              
             </div>
         </v-list>
     </v-navigation-drawer>   
@@ -32,13 +29,15 @@
 
 <script>
 export default {
-    data () {
-        return {
-            right: true,
-            rightDrawer: false,
-            request: '',
-        }
+  name: 'ProductInfo',
+//   components: {},
+  data () {
+    return {
+        right: true,
+        rightDrawer: true,
+        request: '',        
     }
+  }    
 }
 </script>
 

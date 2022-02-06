@@ -16,17 +16,17 @@ import ListResults from '@/components/ListResults'
 export default {
     name: 'dashboard',
     components: {
-        ListResults,
+      ListResults,
     },
-    data () {
-        return{
-            source: ""
-        }
-    },
+    // data () {
+    //   return{
+    //     source: ""
+    //   }
+    // },
     methods: {
-        sourceChanged: function(source){
-            this.source = source
-        }
+      sourceChanged: function(source){
+        this.source = source
+      }
     }
 }
 </script>
