@@ -24,7 +24,6 @@ export default {
   .shipping-box {
     display: flex;
     width: 260px;
-    margin-left: 20vw;
     margin-right: auto;
     transform: translateY(-5px);
   }

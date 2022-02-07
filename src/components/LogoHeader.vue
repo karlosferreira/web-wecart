@@ -16,9 +16,12 @@ export default {
 
 <style>
   .toolbar__title {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 600;
-    margin-left: 0;
+    margin-left: 1vw;
+    margin-right: 5vw;
+    transform: translateY(-4px);
+    cursor: pointer;    
     float: left;
   }
 </style>

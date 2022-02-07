@@ -12,35 +12,22 @@
                     <!-- <v-layout row wrap class="dash-list" v-bind:key="source.id" v-for="source in sources"> -->
                     <v-layout row wrap class="dash-list" v-bind:key="demo.id" v-for="demo in demos">                        
                         <!-- <v-flex xs12 class="card-box"  @click.stop="rightDrawer = !rightDrawer; getRequests(demo.owner.login,demo.name)"> -->
-                        <v-flex xs12 class="card-box" >                            
-                            <v-card class="white--text card-info">
-                                <v-card-media
-                                v-bind:src="demo.avatar_url"
-                                height="110px"
-                                cover
-                                >
-                                </v-card-media>
-                                <v-card-title primary-title>
-                                    <!-- <div class="headline"><h4 class="item-title">{{appendTitle(source.name)}}</h4></div> -->
-                                    <div class="headline"><h4 class="item-title">{{appendTitle(demo.item_name)}}</h4></div>
-                                    <v-spacer></v-spacer>
-                                    <span class="item-price">R$ 1.099,99</span>
-                                </v-card-title>
-                                <!-- <v-card-actions>
-                                    <v-btn flat dark color="blue-grey lighten-2" class="item-add btn-delivery"><v-icon left dark></v-icon>Comprar</v-btn>
-                                </v-card-actions> -->
-                            </v-card>
-                        </v-flex>
-                    </v-layout>         
+                        <ProductCard :demo="demo"/>
+                    </v-layout>
                 </v-container>
-            </v-card>                      
+            </v-card>
         </div>                      
     </div>
 </template>
 
 <script>
+import ProductCard from '@/components/ProductCard';
+
 export default {
     name: 'list-results',
+    components: {
+        ProductCard
+    },
     data () {
         return{
             // sources: [],
@@ -123,13 +110,6 @@ export default {
             }else{
                 return substrin.substring(0,90)+' ...'
             }
-        },
-        appendTitle: function(title){
-            if (title.length < 30) {
-                return title
-            }else{
-                return title.substring(0,30)+' ...'
-            }
         }        
     },
     created: function() {
@@ -150,14 +130,6 @@ export default {
 <style scoped>
     body{
         background: #fafafa
-    }    
-    .item-price {
-        color: #17a2b8;
-        width: 100%;
-        text-align: left;
-        padding-top: 8px;
-        font-weight: 300;
-        font-size: 14px;
     }
     .category-card {
         margin-bottom: 20px;
@@ -178,55 +150,30 @@ export default {
         font-size: 15px;
         text-align: left;
         padding: 7px 0 0 12px;
-    }    
-    .owner-title{text-align:center}
-    .list-col{display: inline-block;text-align:center}
-    .list-col .avatar{margin-left: auto;margin-right: auto}
-    .subheader--inset {
+    }
+    /* .owner-title{text-align:center} */
+    /* .list-col{display: inline-block;text-align:center}
+    .list-col .avatar{margin-left: auto;margin-right: auto} */
+    /* .subheader--inset {
         margin-left: 0;
         background: #307bf5;
         color: #fff!important;
         padding-left: 15px;
-    }
-    .subheader--inset #close-box{
+    } */
+    /* .subheader--inset #close-box{
         padding-right: 5px;
         margin-right: 5px;
         height: 100%;
         outline: none
-    }
-    .hr-bottom{
+    } */
+    /* .hr-bottom{
         border-bottom: 1px solid #ccc!important
-    }
+    } */
     .header-list-title {
         text-align: center;
         padding: 30px;
         padding-top: 0;
     }
-    .card__media .card__media__background {
-        width: 65%;
-    }    
-    .card__media {
-        background: #fff;
-        border-radius: 0;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
-        margin-top: 0px;              
-    }
-    .card-box{
-        cursor: pointer;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 20px; 
-        width: 190px;
-    }
-    .card-info{
-        min-height: auto;
-        max-height: initial;
-        min-width: 100%;       
-    } 
     .source-selection {
         display: table;
     }
@@ -234,23 +181,6 @@ export default {
         width: 100%;
         text-align: center;
     }
-    .card__title--primary.primary-col {
-        padding-top: 17px;
-        min-height: 80px;
-        max-height: 80px;
-        text-align: left!important;
-        display: inline-table;
-        box-sizing: content-box;
-        float: left;
-        width: 90%;
-    }
-    .card__title--primary {
-        padding: 10px;
-    }
-    .card__actions, .card__media__content {
-        display: block;
-        padding: 0;
-    }    
     .loading{
         width: 100%!important;
         margin-top: 40px;
@@ -259,22 +189,8 @@ export default {
     .loader-box{
         display: none
     }
-    .item-title {
-        font-size: 14px;
-        font-weight: 100;
-        text-align: left;
-        justify-content: left;
-        line-height: 17px;
-        color: #000;
-    }
     .btn .icon--left {
         margin-right: 0px;
-    }
-    .card__actions .btn, .card__actions>* {
-        margin: 0px 0px 3px 0px;
-        font-size: 11px;
-        line-height: 7px;
-        width: 95%;
     }
     .btn--flat {
         background-color: red;
@@ -297,11 +213,6 @@ export default {
     .btn-wish {
         background: #34a853!important;
     }
-    .card {
-        border-radius: 5px;
-        padding: 5px;
-        box-shadow: 0 2px 1px -1px rgb(0 0 0 / 10%), 0 1px 1px 0 rgb(0 0 0 / 0.1), 0 1px 3px 0 rgba(0,0,0,.1);
-    }    
     @media only screen and (min-width: 1367px) {
         .layout.dash-list.row.wrap{
             width: 16%;

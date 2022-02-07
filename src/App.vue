@@ -6,20 +6,17 @@
         <v-progress-circular indeterminate color="primary" class="dash-loading"></v-progress-circular>
       </div>
       <router-view/>
-      <ProductInfo/>
     </v-content>
   </v-app>
 </template>
 
 <script>
 import Header from '@/components/Header';
-import ProductInfo from '@/components/ProductInfo';
 
 export default {
   name: 'App',
   components: {
-    Header,
-    ProductInfo
+    Header
   }
 }
 </script>

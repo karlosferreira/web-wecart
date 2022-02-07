@@ -47,4 +47,16 @@ export default {
         margin-top: 40px;
         text-align: center
     }
+    .subheader--inset {
+        margin-left: 0;
+        background: #307bf5;
+        color: #fff!important;
+        padding-left: 15px;
+    }
+    /* .subheader--inset #close-box{
+        padding-right: 5px;
+        margin-right: 5px;
+        height: 100%;
+        outline: none
+    }         */
 </style>

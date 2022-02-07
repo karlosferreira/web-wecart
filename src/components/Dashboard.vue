@@ -7,16 +7,19 @@
           </div>
       </v-layout>
     </v-slide-y-transition>
+    <ProductInfo/>
   </v-container>
 </template>
 
 <script>
-import ListResults from '@/components/ListResults'
+import ListResults from '@/components/ListResults';
+import ProductInfo from '@/components/ProductInfo';
 
 export default {
     name: 'dashboard',
     components: {
       ListResults,
+      ProductInfo
     },
     // data () {
     //   return{
