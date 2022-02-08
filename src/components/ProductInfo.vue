@@ -34,8 +34,8 @@ export default {
   data () {
     return {
         right: true,
-        rightDrawer: true,
-        request: '',        
+        rightDrawer: false,
+        requests: '',        
     }
   }    
 }

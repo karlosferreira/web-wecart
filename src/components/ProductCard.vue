@@ -2,20 +2,17 @@
     <v-flex xs12 class="card-box" >                            
         <v-card class="white--text card-info">
             <v-card-media
-            v-bind:src="demo.avatar_url"
-            height="110px"
+            v-bind:src="product.avatar_url"
+            height="130px"
             cover
             >
             </v-card-media>
             <v-card-title primary-title>
-                <!-- <div class="headline"><h4 class="item-title">{{appendTitle(source.name)}}</h4></div> -->
-                <div class="headline"><h4 class="item-title">{{appendTitle(demo.item_name)}}</h4></div>
+                <div class="headline"><h4 class="item-title">{{appendTitle(product.item_name)}}</h4></div>
                 <v-spacer></v-spacer>
                 <span class="item-price">R$ 1.099,99</span>
             </v-card-title>
-            <!-- <v-card-actions>
-                <v-btn flat dark color="blue-grey lighten-2" class="item-add btn-delivery"><v-icon left dark></v-icon>Comprar</v-btn>
-            </v-card-actions> -->
+
         </v-card>
     </v-flex>
 </template>
@@ -23,11 +20,7 @@
 <script>
 export default {
   name: 'ProductCard',
-  props: ['demo'],
-  // components: {},
-  // data () {
-  //   return {}
-  // },
+  props: ['product'],
   methods: {
     appendTitle: function(title){
         if (title.length < 30) {

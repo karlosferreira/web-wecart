@@ -1,7 +1,6 @@
 <template>
     <div class="list-result">
         <div class="loader-box">
-            <!-- <h4 class="header-list-title">Todos os repositórios desenvolvidos em JAVA</h4> -->
             <v-card class="category-card">
                 <v-container
                     fluid
@@ -9,10 +8,8 @@
                     grid-list-lg
                 >
                     <div class="row"><h2>Açougue</h2></div>
-                    <!-- <v-layout row wrap class="dash-list" v-bind:key="source.id" v-for="source in sources"> -->
-                    <v-layout row wrap class="dash-list" v-bind:key="demo.id" v-for="demo in demos">                        
-                        <!-- <v-flex xs12 class="card-box"  @click.stop="rightDrawer = !rightDrawer; getRequests(demo.owner.login,demo.name)"> -->
-                        <ProductCard :demo="demo"/>
+                    <v-layout row wrap class="dash-list" v-bind:key="product.id" v-for="product in products">                        
+                        <ProductCard :product="product"/>
                     </v-layout>
                 </v-container>
             </v-card>
@@ -23,6 +20,8 @@
 <script>
 import ProductCard from '@/components/ProductCard';
 
+import products from '@/data/products.json';
+
 export default {
     name: 'list-results',
     components: {
@@ -30,93 +29,14 @@ export default {
     },
     data () {
         return{
-            // sources: [],
-            // source: '',
-            // requests: [],
-            demos: [
-                {
-                    'id': 0,
-                    'cat_name': 'Promoções',
-                    'item_name': 'Guaraná Antártica 350ml',
-                    'avatar_url': 'https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true',
-                    'delivery_price': 'R$ 1.099,90',
-                    'shipping_price': 'R$ 999,90'
-                },
-                {
-                    'id': 1,
-                    'cat_name': 'Promoções',
-                    'item_name': 'Guaraná Antártica 350ml',
-                    'avatar_url': 'https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true',
-                    'delivery_price': 'R$ 1.099,90',
-                    'shipping_price': 'R$ 999,90'
-                },
-                {
-                    'id': 2,
-                    'cat_name': 'Promoções',
-                    'item_name': 'Guaraná Antártica 350ml',
-                    'avatar_url': 'https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true',
-                    'delivery_price': 'R$ 1.099,90',
-                    'shipping_price': 'R$ 999,90'
-                },
-                {
-                    'id': 3,
-                    'cat_name': 'Promoções',
-                    'item_name': 'Guaraná Antártica 350ml',
-                    'avatar_url': 'https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true',
-                    'delivery_price': 'R$ 1.099,90',
-                    'shipping_price': 'R$ 999,90'
-                },
-                {
-                    'id': 4,
-                    'cat_name': 'Promoções',
-                    'item_name': 'Guaraná Antártica 350ml',
-                    'avatar_url': 'https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true',
-                    'delivery_price': 'R$ 1.099,90',
-                    'shipping_price': 'R$ 999,90'
-                },
-                {
-                    'id': 5,
-                    'cat_name': 'permalink',
-                    'item_name': 'Ver todos',
-                    'avatar_url': 'promo-all',
-                    'delivery_price': '',
-                    'shipping_price': ''
-                }                                                                                 
-            ]                        
+            products
         }
-    },
-    methods: {
-        getRequests: function (owner,repo,desc){
-            document.querySelector('.request-box').style.display = 'none'
-            document.querySelector('.loading').style.display = 'inline-block';
-            this.$http.get('https://api.github.com/repos/'+owner+'/'+repo+'/pulls')
-            .then(response => {
-                this.requests = response.body 
-                console.log(response.body)
-            })
-            .then(function(){
-                document.querySelector('.loading').style.display = 'none';
-                document.querySelector('.request-box').style.display = 'block'
-            })
-        },
-        dateString: function(date){
-            var date_t = date.split('T'),
-                exit_date = date_t[0].split('-')
-            return ''+exit_date['2']+'/'+exit_date['1']+''
-        },
-        appendSubstring: function(substrin){
-            if (substrin.length < 90) {
-                return substrin
-            }else{
-                return substrin.substring(0,90)+' ...'
-            }
-        }        
     },
     created: function() {
         this.$http.get('https://api.github.com/search/repositories?q=language:java')
         .then(response => {
             this.sources = response.body.items
-            console.log(response.body.items)
+            // console.log(response.body.items)
         })
         .then(function(){
             document.querySelector('.dash-loading').style.display = 'none'

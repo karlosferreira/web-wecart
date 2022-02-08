@@ -18,8 +18,8 @@ export default {
   .toolbar__title {
     font-size: 36px;
     font-weight: 600;
-    margin-left: 1vw;
-    margin-right: 5vw;
+    margin-left: 2.2vw;
+    margin-right: 3.2vw;
     transform: translateY(-4px);
     cursor: pointer;    
     float: left;

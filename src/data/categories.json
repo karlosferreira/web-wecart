@@ -1,0 +1,212 @@
+[
+    {
+        "id": 0,
+        "cat_name": "Bebidas",
+        "cat_slug": "",
+        "cat_icon": "liquor",
+        "cat_count": ""
+    },
+    {
+        "id": 1,
+        "cat_name": "Grãos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 2,
+        "cat_name": "Ferináceos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 3,
+        "cat_name": "Cereais",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },    
+    {
+        "id": 4,
+        "cat_name": "Massas",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 5,
+        "cat_name": "Molhos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 6,
+        "cat_name": "Conservas",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 7,
+        "cat_name": "Enlatados",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 8,
+        "cat_name": "Temperos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 9,
+        "cat_name": "Condimentos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 10,
+        "cat_name": "Aperitivos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 11,
+        "cat_name": "Biscoitos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 12,
+        "cat_name": "Doces",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 13,
+        "cat_name": "Sobremesas",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 14,
+        "cat_name": "Sopas",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 15,
+        "cat_name": "Cremes",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 16,
+        "cat_name": "Pastas",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 17,
+        "cat_name": "Cafés",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 18,
+        "cat_name": "Complementos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 19,
+        "cat_name": "Suplementos",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 20,
+        "cat_name": "Laticínios",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 21,
+        "cat_name": "Padaria",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 22,
+        "cat_name": "Açougue",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 23,
+        "cat_name": "Aviário",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 24,
+        "cat_name": "Peixaria",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 25,
+        "cat_name": "Congelados",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 26,
+        "cat_name": "Defumados",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 27,
+        "cat_name": "Chocolates",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 28,
+        "cat_name": "Integrais",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    },
+    {
+        "id": 29,
+        "cat_name": "Papinhas",
+        "cat_slug": "",
+        "cat_icon": "",
+        "cat_count": ""
+    }    
+]
