@@ -1,5 +1,15 @@
 <template>
     <v-content class="categories-box">
+  <swiper
+    :slides-per-view="3"
+    :space-between="50"
+    @swiper="onSwiper"
+    @slideChange="onSlideChange"
+  >
+    <swiper-slide>Slide 1</swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+  </swiper>      
       <v-card>
         <v-container>
           <div class="text-center">
@@ -54,4 +64,8 @@ export default {
   .categories-box .ma-2:hover {
     background: #17a2b8!important;
   }
+  .btn .btn__content .icon {
+    color: inherit;
+    margin-right: 0.7vw;
+  }  
 </style>
