@@ -1,164 +1,470 @@
 [
     {
         "id": 0,
-        "cat_name": "Promoções",
-        "item_name": "H20 Limão 500ml",
-        "item_volume": "",
-        "avatar_url": "https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Queijo Frescal Polenghi Ultrafiltrado (pote)",
+        "item_volume": "400g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/192726-600-600/591823.jpg?v=637427076716730000",
+        "delivery_price": "R$ 19,90",
+        "shipping_price": "R$ 19,90"
     },
     {
         "id": 1,
-        "cat_name": "Promoções",
-        "item_name": "Açucar União - 1kg",
-        "item_volume": "",
-        "avatar_url": "https://trimais.vteximg.com.br/arquivos/ids/1006139-410-410/foto_original.jpg?v=637395814274730000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Bala Fini Gelatinas Beijos Morango",
+        "item_medida": "100g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/169934-600-600/Bala-Fini-Gelatinas-Beijos-Morango-100g.jpg?v=636094535128170000",
+        "delivery_price": "R$ 8,99",
+        "shipping_price": "R$ 8,99"
     },
     {
         "id": 2,
-        "cat_name": "Promoções",
-        "item_name": "Café Pilão - 500g",
-        "item_volume": "",
-        "avatar_url": "https://cafepilao.vteximg.com.br/arquivos/ids/157243/Cafe-Pilao-Torrado-e-Moido-Tradicional-Vacuo-500g--2--min.png?v=637486617100200000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Marshmallow Fini Torção",
+        "item_volume": "80g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190580-600-600/533823.jpg?v=637346495179100000",
+        "delivery_price": "R$ 8,99",
+        "shipping_price": "R$ 8,99"
     },
     {
         "id": 3,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Bala Fini Gelatinas Dentaduras",
+        "item_volume": "100g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/169936-600-600/Bala-Fini-Gelatinas-Dentaduras-100g.jpg?v=636094535195100000",
+        "delivery_price": "R$ 8,99",
+        "shipping_price": "R$ 8,99"
     },
     {
         "id": 4,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://trimais.vteximg.com.br/arquivos/ids/1006139-410-410/foto_original.jpg?v=637395814274730000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Bala Fini Gelatinas Ursinhos",
+        "item_volume": "110g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/169935-600-600/Bala-Fini-Gelatinas-Ursinhos-100g.jpg?v=636094535163070000npm",
+        "delivery_price": "R$ 8,99",
+        "shipping_price": "R$ 8,99"
     },
     {
         "id": 5,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://cafepilao.vteximg.com.br/arquivos/ids/157243/Cafe-Pilao-Torrado-e-Moido-Tradicional-Vacuo-500g--2--min.png?v=637486617100200000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Bala Fini Gelatinas Banana",
+        "item_volume": "100g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/177305-600-600/1487007159939.jpg?v=636609357917830000",
+        "delivery_price": "R$ 8,99",
+        "shipping_price": "R$ 8,99"
     },
     {
         "id": 6,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Bala Fini Regaliz Tubes Ácido Morango",
+        "item_volume": "80g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/169932-600-600/Bala-Fini-Regaliz-Tubes-Acido-Morango-80g.jpg?v=636094535066600000",
+        "delivery_price": "R$ 8,99",
+        "shipping_price": "R$ 8,99"
     },
     {
         "id": 7,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://trimais.vteximg.com.br/arquivos/ids/1006139-410-410/foto_original.jpg?v=637395814274730000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Queijo Processado Polenguinho Tradicional (8 Unidades)",
+        "item_volume": "136g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/188334-600-600/54676.jpg?v=637233667611700000",
+        "delivery_price": "R$ 13,99",
+        "shipping_price": "R$ 13,99"
     },
     {
         "id": 8,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://cafepilao.vteximg.com.br/arquivos/ids/157243/Cafe-Pilao-Torrado-e-Moido-Tradicional-Vacuo-500g--2--min.png?v=637486617100200000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Alvejante sem Cloro Vanish Multiuso (Refil)",
+        "item_volume": "500ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/174297-600-600/Alvejante-sem-Cloro-Vanish-Multiuso-500ml--Refil-.png?v=636198294261800000",
+        "delivery_price": "R$ 8,99",
+        "shipping_price": "R$ 8,99"
     },
     {
         "id": 9,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://trimais.vteximg.com.br/arquivos/ids/1006139-410-410/foto_original.jpg?v=637395814274730000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Desinfetante Harpic Active Fresh Lavanda",
+        "item_volume": "500ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/189858-600-600/550418.jpg?v=637320754458200000",
+        "delivery_price": "R$ 10,99",
+        "shipping_price": "R$ 10,99"
     },
     {
         "id": 10,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Desinfetante Harpic Cloroforte Fresh",
+        "item_volume": "500ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/170183-600-600/Desinfetante-Harpic-Cloroforte-Fresh-500ml---515g.jpg?v=636094546609100000",
+        "delivery_price": "R$ 10,99",
+        "shipping_price": "R$ 10,99"
     },
     {
         "id": 11,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://cafepilao.vteximg.com.br/arquivos/ids/157243/Cafe-Pilao-Torrado-e-Moido-Tradicional-Vacuo-500g--2--min.png?v=637486617100200000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
-    },
-    {
-        "id": 12,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
-    },    
+        "cat_name": "Ofertas",
+        "item_name": "Creme de Leite Nestlé Leve (Tetra Pak)",
+        "item_volume": "200g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/206445-600-600/_1.jpg?v=637775076942930000",
+        "delivery_price": "R$ 3,99",
+        "shipping_price": "R$ 3,99"
+    },   
     {
         "id": 13,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://trimais.vteximg.com.br/arquivos/ids/1006139-410-410/foto_original.jpg?v=637395814274730000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Linguiça Mista Perdigão",
+        "item_volume": "500g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/177910-600-600/Linguica-Mista-Perdigao-500g.png?v=636694915438630000",
+        "delivery_price": "R$ 9,99",
+        "shipping_price": "R$ 9,99"
     },
     {
         "id": 14,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://cafepilao.vteximg.com.br/arquivos/ids/157243/Cafe-Pilao-Torrado-e-Moido-Tradicional-Vacuo-500g--2--min.png?v=637486617100200000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Hot Pocket Sadia X-Picanha",
+        "item_volume": "145g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/178334-600-600/Hot-Pocket-Sadia-X-Picanha-145g.png?v=636782447065870000",
+        "delivery_price": "R$ 7,79",
+        "shipping_price": "R$ 7,79"
     },
     {
         "id": 15,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://trimais.vteximg.com.br/arquivos/ids/1006139-410-410/foto_original.jpg?v=637395814274730000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Papel Higiênico Folha Dupla Neve Neutro (Leve 12 e Pague 11)",
+        "item_volume": "30m x 10cm",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/176688-600-600/Papel-Higienico-Folha-Dupla-Neve-Neutro-Leve-12-e-Pague-11-rolos--30m-x-10cm-.png?v=636495268282970000",
+        "delivery_price": "R$ 16,90",
+        "shipping_price": "R$ 16,90"
     },
     {
         "id": 16,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://emporiodacerveja.vtexassets.com/arquivos/ids/167393-232-232?width=232&height=232&aspect=true",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
+        "cat_name": "Ofertas",
+        "item_name": "Bebida Mista Del Valle Kapo Morango",
+        "item_volume": "200ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/205653-600-600/547891_0.jpg?v=637741485266330000",
+        "delivery_price": "R$ 1,89",
+        "shipping_price": "R$ 1,89"
     },
     {
         "id": 17,
-        "cat_name": "Promoções",
-        "item_name": "Guaraná Antártica 350ml",
-        "item_volume": "",
-        "avatar_url": "https://cafepilao.vteximg.com.br/arquivos/ids/157243/Cafe-Pilao-Torrado-e-Moido-Tradicional-Vacuo-500g--2--min.png?v=637486617100200000",
-        "delivery_price": "R$ 1.099,90",
-        "shipping_price": "R$ 999,90"
-    }
+        "cat_name": "Ofertas",
+        "item_name": "Bebida Mista Del Valle Kapo Uva",
+        "item_volume": "200ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/191398-600-600/547913.jpg?v=637383115166130000",
+        "delivery_price": "R$ 1,89",
+        "shipping_price": "R$ 1,89"
+    },
+    {
+        "id": 18,
+        "cat_name": "Ofertas",
+        "item_name": "Nuggets Sadia Frango Crocante",
+        "item_volume": "300g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/188281-600-600/584673.jpg?v=637232611354600000",
+        "delivery_price": "R$ 7,99",
+        "shipping_price": "R$ 7,99"
+    },
+    {
+        "id": 19,
+        "cat_name": "Ofertas",
+        "item_name": "Nuggets Sadia Frango com Queijo",
+        "item_volume": "300g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/188283-600-600/584657.jpg?v=637232619293370000",
+        "delivery_price": "R$ 7,99",
+        "shipping_price": "R$ 7,99"
+    },
+    {
+        "id": 20,
+        "cat_name": "Ofertas",
+        "item_name": "Maionese Hellmann`s Tradicional",
+        "item_volume": "500g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/191894-600-600/506176_2.jpg?v=637390757440430000",
+        "delivery_price": "R$ 8,99",
+        "shipping_price": "R$ 8,99"
+    },
+    {
+        "id": 21,
+        "cat_name": "Ofertas",
+        "item_name": "Café Torrado e Moído Pimpinela Golden",
+        "item_volume": "500g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/174858-600-600/EMBALAGEM-2.png?v=636244184194970000",
+        "delivery_price": "R$ 18,99",
+        "shipping_price": "R$ 18,99"
+    },
+    {
+        "id": 22,
+        "cat_name": "Ofertas",
+        "item_name": "Macarrão Instantâneo Nissin Lámen Galinha Caipira",
+        "item_volume": "85g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/173605-600-600/Macarrao-Instantaneo-Nissin-Lamen-Galinha-Caipira-85g.png?v=636156051189630000",
+        "delivery_price": "R$ 1,99",
+        "shipping_price": "R$ 1,99"
+    },
+    {
+        "id": 23,
+        "cat_name": "Ofertas",
+        "item_name": "Macarrão Instantâneo Nissin Lámen Legumes",
+        "item_volume": "85g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/173607-600-600/Macarrao-Instantaneo-Nissin-Lamen-Legumes-85g.png?v=636156064053230000",
+        "delivery_price": "R$ 1,99",
+        "shipping_price": "R$ 1,99"
+    },
+    {
+        "id": 24,
+        "cat_name": "Ofertas",
+        "item_name": "Macarrão Instantâneo Nissin Lámen Carne",
+        "item_volume": "85g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/189262-600-600/529982.jpg?v=637286953348830000",
+        "delivery_price": "R$ 1,99",
+        "shipping_price": "R$ 1,99"
+    },
+    {
+        "id": 25,
+        "cat_name": "Ofertas",
+        "item_name": "Macarrão Instantâneo Nissin Turma da Mônica Galinha Suave",
+        "item_volume": "85g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/189259-600-600/531804.jpg?v=637286944524400000",
+        "delivery_price": "R$ 1,99",
+        "shipping_price": "R$ 1,99"
+    },
+    {
+        "id": 26,
+        "cat_name": "Ofertas",
+        "item_name": "Macarrão Instantâneo Nissin Turma da Mônica Tomate Suave",
+        "item_volume": "85g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/189261-600-600/529923.jpg?v=637286947964130000",
+        "delivery_price": "R$ 1,99",
+        "shipping_price": "R$ 1,99"
+    },
+        {
+        "id": 27,
+        "cat_name": "Ofertas",
+        "item_name": "Macarrão Instantâneo Nissin Lámen Camarão com Alho",
+        "item_volume": "85g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/182463-600-600/830488.jpg?v=637141832808400000",
+        "delivery_price": "R$ 1,99",
+        "shipping_price": "R$ 1,99"
+    },
+    {
+        "id": 28,
+        "cat_name": "Ofertas",
+        "item_name": "Macarrão Instantâneo Nissin Turma da Mônica Carne",
+        "item_volume": "85g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/189260-600-600/531774.jpg?v=637286945810400000",
+        "delivery_price": "R$ 1,99",
+        "shipping_price": "R$ 1,99"
+    },
+    {
+        "id": 29,
+        "cat_name": "Ofertas",
+        "item_name": "Biscoito Bauducco Wafer Recheado Morango",
+        "item_volume": "140g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/167624-600-600/Biscoito-Bauducco-Wafer-Recheado-Morango-140g.jpg?v=636093965352530000",
+        "delivery_price": "R$ 2,99",
+        "shipping_price": "R$ 2,99"
+    },
+    {
+        "id": 30,
+        "cat_name": "Ofertas",
+        "item_name": "Cerveja Brahma Duplo Malte (Pack com 15)",
+        "item_volume": "310ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/206532-600-600/cerveja-brahma-duplo-malte-lata-310ml-com-15-unidades-7891991297738.jpg?v=637781957482900000",
+        "delivery_price": "R$ 37,35",
+        "shipping_price": "R$ 37,35"
+    },
+    {
+        "id": 31,
+        "cat_name": "Ofertas",
+        "item_name": "Biscoito Bauducco Wafer Recheado Chocolate",
+        "item_volume": "140g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/167623-600-600/Biscoito-Bauducco-Wafer-Recheado-Chocolate-140g.jpg?v=636093965332870000",
+        "delivery_price": "R$ 2,99",
+        "shipping_price": "R$ 2,99"
+    },
+    {
+        "id": 32,
+        "cat_name": "Ofertas",
+        "item_name": "Biscoito Bauducco Wafer Recheado Triplo Chocolate",
+        "item_volume": "140g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/169099-600-600/Biscoito-Bauducco-Wafer-Recheado-Triplo-Chocolate-140g.jpg?v=636094492444430000",
+        "delivery_price": "R$ 2,99",
+        "shipping_price": "R$ 2,99"
+    },
+    {
+        "id": 33,
+        "cat_name": "Ofertas",
+        "item_name": "Refrigerante Mineirinho",
+        "item_volume": "2l",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/175928-600-600/Refrigerante-Mineirinho-2l.png?v=636408230203930000",
+        "delivery_price": "R$ 6,99",
+        "shipping_price": "R$ 6,99"
+    },
+    {
+        "id": 34,
+        "cat_name": "Ofertas",
+        "item_name": "Refrigerante Guaraná Antarctica",
+        "item_volume": "2l",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/202790-600-600/387e9c7836b1ebd5ef34329fb7a00402_refrigerante-guarana-antarctica-2l_lett_1.jpg?v=637686071253070000",
+        "delivery_price": "R$ 6,99",
+        "shipping_price": "R$ 6,99"
+    },
+    {
+        "id": 35,
+        "cat_name": "Ofertas",
+        "item_name": "Bebida Láctea UHT Toddynho Chocolate",
+        "item_volume": "200ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/206439-600-600/_0.jpg?v=637775076917270000",
+        "delivery_price": "R$ 1,99",
+        "shipping_price": "R$ 1,99"
+    },
+    {
+        "id": 36,
+        "cat_name": "Ofertas",
+        "item_name": "Cerveja Heineken (Lata)",
+        "item_volume": "350ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/201543-600-600/558184_1.jpg?v=637659420159730000",
+        "delivery_price": "R$ 4,39",
+        "shipping_price": "R$ 4,39"
+    },
+    {
+        "id": 37,
+        "cat_name": "Ofertas",
+        "item_name": "Chá Mate Matte Leão Zero Natural",
+        "item_volume": "1,5l",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190042-600-600/508330_3.jpg?v=637326649348500000",
+        "delivery_price": "R$ 6,89",
+        "shipping_price": "R$ 6,89"
+    },
+    {
+        "id": 38,
+        "cat_name": "Ofertas",
+        "item_name": "Chá Mate Matte Leão com Pêssego",
+        "item_volume": "1,5l",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/188849-600-600/508403-LEAO_MATTE_PET_15L_PESSEGO.jpg?v=637251723618470000",
+        "delivery_price": "R$ 6,89",
+        "shipping_price": "R$ 6,89"
+    },
+    {
+        "id": 39,
+        "cat_name": "Ofertas",
+        "item_name": "Chá Mate Matte Leão Natural",
+        "item_volume": "1,5l",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/188682-600-600/508357.jpg?v=637244713637830000",
+        "delivery_price": "R$ 6,89",
+        "shipping_price": "R$ 6,89"
+    },
+    {
+        "id": 40,
+        "cat_name": "Ofertas",
+        "item_name": "Chá Mate Matte Leão Zero com Limão",
+        "item_volume": "1,5l",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190507-600-600/508365_1.jpg?v=637341734681730000",
+        "delivery_price": "R$ 6,89",
+        "shipping_price": "R$ 6,89"
+    },
+    {
+        "id": 41,
+        "cat_name": "Ofertas",
+        "item_name": "Cerveja Antarctica (Lata)",
+        "item_volume": "473ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/203443-600-600/eb568a66f40d1a0c893bffb8930f981a_cerveja-antarctica-473ml--lata-_lett_1.jpg?v=637695793564930000",
+        "delivery_price": "R$ 3,59",
+        "shipping_price": "R$ 3,59"
+    },
+    {
+        "id": 42,
+        "cat_name": "Ofertas",
+        "item_name": "Cerveja Itaipava 100% Puro Malte (Lata)",
+        "item_volume": "473ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/205883-600-600/Cerveja-Itaipava-100--Puro-Malte-473ml--Lata-.jpg?v=637750158027470000",
+        "delivery_price": "R$ 3,49",
+        "shipping_price": "R$ 3,49"
+    },
+    {
+        "id": 43,
+        "cat_name": "Ofertas",
+        "item_name": "Cerveja Brahma Chopp (Lata)",
+        "item_volume": "473ml",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/180747-600-600/4b796b16c87964ee07cb9f9470fa9327_cerveja-brahma-chopp-473ml--lata-_lett_1.jpg?v=637092765716370000",
+        "delivery_price": "R$ 3,99",
+        "shipping_price": "R$ 3,99"
+    }, 
+    {
+        "id": 44,
+        "cat_name": "Ofertas",
+        "item_name": "Lasanha Sadia de Peito de Peru",
+        "item_volume": "600g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190703-600-600/620106.jpg?v=637352579212570000",
+        "delivery_price": "R$ 14,99",
+        "shipping_price": "R$ 14,99"
+    },    
+    {
+        "id": 45,
+        "cat_name": "Ofertas",
+        "item_name": "Lasanha Sadia à Bolonhesa",
+        "item_volume": "600g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190701-600-600/584100.jpg?v=637352578282570000",
+        "delivery_price": "R$ 14,99",
+        "shipping_price": "R$ 14,99"
+    },    
+    {
+        "id": 46,
+        "cat_name": "Ofertas",
+        "item_name": "Lasanha Sadia de Calabresa",
+        "item_volume": "600g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190704-600-600/612065.jpg?v=637352579672000000",
+        "delivery_price": "R$ 14,99",
+        "shipping_price": "R$ 14,99"
+    },    
+    {
+        "id": 47,
+        "cat_name": "Ofertas",
+        "item_name": "Leite Fermentado Activia Ameixa",
+        "item_volume": "170g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/173735-600-600/Leite-Fermentado-Activia-Ameixa-170g.png?v=636162016275030000",
+        "delivery_price": "R$ 4,49",
+        "shipping_price": "R$ 4,49"
+    },    
+    {
+        "id": 48,
+        "cat_name": "Ofertas",
+        "item_name": "Lasanha Sadia Verde à Bolonhesa",
+        "item_volume": "600g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190706-600-600/584134.jpg?v=637352580448630000",
+        "delivery_price": "R$ 14,99",
+        "shipping_price": "R$ 14,99"
+    },    
+    {
+        "id": 49,
+        "cat_name": "Ofertas",
+        "item_name": "Lasanha Sadia de Presunto e Queijo ao Sugo",
+        "item_volume": "600g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190702-600-600/584169.jpg?v=637352578782130000",
+        "delivery_price": "R$ 14,99",
+        "shipping_price": "R$ 14,99"
+    },    
+    {
+        "id": 50,
+        "cat_name": "Ofertas",
+        "item_name": "Lasanha Sadia Quatro Queijos",
+        "item_volume": "600g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/190708-600-600/584207.jpg?v=637352581410300000",
+        "delivery_price": "R$ 14,99",
+        "shipping_price": "R$ 14,99"
+    },    
+    {
+        "id": 51,
+        "cat_name": "Ofertas",
+        "item_name": "Leite Fermentado Activia Aveia",
+        "item_volume": "170g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/173734-600-600/Leite-Fermentado-Activia-Aveia-170g.png?v=636162013650930000",
+        "delivery_price": "R$ 4,49",
+        "shipping_price": "R$ 4,49"
+    },
+    {
+        "id": 52,
+        "cat_name": "Ofertas",
+        "item_name": "Hot Pocket Sadia X-Burguer Barbecue",
+        "item_volume": "145g",
+        "avatar_url": "https://superprix.vteximg.com.br/arquivos/ids/205472-600-600/Hot-Pocket-Sadia-X-Burguer-Barbecue-145g.jpg?v=637738105251030000",
+        "delivery_price": "R$ 7,79",
+        "shipping_price": "R$ 7,79"
+    }    
 ]

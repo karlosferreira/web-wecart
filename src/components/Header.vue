@@ -7,7 +7,7 @@
                 <CartBox/>
             </div>
         </v-toolbar>
-        <ListCategories/>
+        <!-- <ListCategories/> -->
     </div>
 </template>
 

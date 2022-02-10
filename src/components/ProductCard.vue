@@ -3,14 +3,13 @@
         <v-card class="white--text card-info">
             <v-card-media
             v-bind:src="product.avatar_url"
-            height="130px"
-            cover
+            height="140px"
             >
             </v-card-media>
             <v-card-title primary-title>
                 <div class="headline"><h4 class="item-title">{{appendTitle(product.item_name)}}</h4></div>
                 <v-spacer></v-spacer>
-                <span class="item-price">R$ 1.099,99</span>
+                <span class="item-price">{{product.delivery_price}}</span>
             </v-card-title>
 
         </v-card>
@@ -23,10 +22,10 @@ export default {
   props: ['product'],
   methods: {
     appendTitle: function(title){
-        if (title.length < 30) {
+        if (title.length < 60) {
             return title
         }else{
-            return title.substring(0,30)+' ...'
+            return title.substring(0,60)+' '
         }
     }
   }
@@ -60,30 +59,39 @@ export default {
     .card__title--primary {
         padding: 10px;
     }
+    .headline {
+        min-height: 52px;
+    }    
     .item-title {
-        font-size: 14px;
-        font-weight: 100;
-        text-align: left;
-        justify-content: left;
+        font-size: 13px;
+        font-weight: 200;
+        /* text-align: left; */
+        /* justify-content: left; */
         line-height: 17px;
         color: #000;
     }
     .item-price {
         color: #17a2b8;
         width: 100%;
-        text-align: left;
-        padding-top: 8px;
-        font-weight: 300;
+        /* text-align: left; */
+        padding-top: 5px;
+        font-weight: 400;
         font-size: 14px;
     }
-    
+    .theme--light .input-group:not(.input-group--error) label {
+        color: #fff;
+    }
+    .input-group__details:before {
+        height: 2px;
+        background-color: #fff!important;
+    }
     .card__media .card__media__background {
         width: 100%;
     }    
     .card__media {
         background: #fff;
         border-radius: 0;
-        width: 60%;
+        width: 78%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0px;
