@@ -39,8 +39,8 @@ export default {
   button.ma-2.btn.theme--dark.primary {
     margin-left: auto;
     margin-right: auto;
-    min-width: 173px;
-    font-size: 13px;
+    min-width: 176px;
+    font-size: 13.5px;
   }
   .categories-box {
     padding: 80px 0px 0px!important;

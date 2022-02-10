@@ -1,254 +1,86 @@
 [
     {
         "id": 0,
-        "cat_name": "Categoria 1",
+        "cat_name": "Promoções",
         "cat_slug": "",
         "cat_icon": "liquor",
         "cat_count": ""
     },
     {
         "id": 1,
-        "cat_name": "Categoria 2",
+        "cat_name": "Bebidas",
         "cat_slug": "",
         "cat_icon": "icecream",
         "cat_count": ""
     },
     {
         "id": 2,
-        "cat_name": "Categoria 3",
+        "cat_name": "Congelados",
         "cat_slug": "",
         "cat_icon": "restaurant",
         "cat_count": ""
     },
     {
         "id": 3,
-        "cat_name": "Categoria 4",
+        "cat_name": "Higiene",
         "cat_slug": "",
         "cat_icon": "cake",
         "cat_count": ""
     },    
     {
         "id": 4,
-        "cat_name": "Categoria 5",
+        "cat_name": "Limpeza",
         "cat_slug": "",
         "cat_icon": "lunch_dining",
         "cat_count": ""
     },
     {
         "id": 5,
-        "cat_name": "Categoria 6",
+        "cat_name": "Grãos",
         "cat_slug": "",
         "cat_icon": "local_cafe",
         "cat_count": ""
     },
     {
         "id": 6,
-        "cat_name": "Categoria 7",
+        "cat_name": "Condimentos",
         "cat_slug": "",
         "cat_icon": "restaurant_menu",
         "cat_count": ""
     },
     {
         "id": 7,
-        "cat_name": "Categoria 8",
+        "cat_name": "Doces",
         "cat_slug": "",
         "cat_icon": "delivery_dining",
         "cat_count": ""
     },
     {
         "id": 8,
-        "cat_name": "Categoria 9",
+        "cat_name": "Salgados",
         "cat_slug": "",
         "cat_icon": "fastfood",
         "cat_count": ""
     },
     {
         "id": 9,
-        "cat_name": "Categoria 10",
+        "cat_name": "Biscoitos",
         "cat_slug": "",
         "cat_icon": "local_bar",
         "cat_count": ""
     },
     {
         "id": 10,
-        "cat_name": "Categoria 11",
+        "cat_name": "Tabacaria",
         "cat_slug": "",
         "cat_icon": "kitchen",
         "cat_count": ""
     },
     {
         "id": 11,
-        "cat_name": "Categoria 12",
+        "cat_name": "Conveniências",
         "cat_slug": "",
         "cat_icon": "ramen_dining",
         "cat_count": ""
-    },
-    {
-        "id": 12,
-        "cat_name": "Categoria 13",
-        "cat_slug": "",
-        "cat_icon": "local_pizza",
-        "cat_count": ""
-    },
-    {
-        "id": 13,
-        "cat_name": "Categoria 14",
-        "cat_slug": "",
-        "cat_icon": "dinner_dining",
-        "cat_count": ""
-    },
-    {
-        "id": 14,
-        "cat_name": "Categoria 15",
-        "cat_slug": "",
-        "cat_icon": "bakery_dining",
-        "cat_count": ""
-    },
-    {
-        "id": 15,
-        "cat_name": "Categoria 16",
-        "cat_slug": "",
-        "cat_icon": "local_laundry_service",
-        "cat_count": ""
-    },
-    {
-        "id": 16,
-        "cat_name": "Categoria 17",
-        "cat_slug": "",
-        "cat_icon": "local_hotel",
-        "cat_count": ""
-    },
-    {
-        "id": 17,
-        "cat_name": "Categoria 18",
-        "cat_slug": "",
-        "cat_icon": "local_car_wash",
-        "cat_count": ""
-    },
-    {
-        "id": 18,
-        "cat_name": "Categoria 19",
-        "cat_slug": "",
-        "cat_icon": "festival",
-        "cat_count": ""
-    },
-    {
-        "id": 19,
-        "cat_name": "Categoria 20",
-        "cat_slug": "",
-        "cat_icon": "local_shipping",
-        "cat_count": ""
-    },
-    {
-        "id": 20,
-        "cat_name": "Categoria 21",
-        "cat_slug": "",
-        "cat_icon": "local_florist",
-        "cat_count": ""
-    },
-    {
-        "id": 21,
-        "cat_name": "Categoria 22",
-        "cat_slug": "",
-        "cat_icon": "local_gas_station",
-        "cat_count": ""
-    },
-    {
-        "id": 22,
-        "cat_name": "Categoria 23",
-        "cat_slug": "",
-        "cat_icon": "local_convenience_store",
-        "cat_count": ""
-    },
-    {
-        "id": 23,
-        "cat_name": "Categoria 24",
-        "cat_slug": "",
-        "cat_icon": "local_hospital",
-        "cat_count": ""
-    },
-    {
-        "id": 24,
-        "cat_name": "Categoria 25",
-        "cat_slug": "",
-        "cat_icon": "local_pizza",
-        "cat_count": ""
-    },
-    {
-        "id": 25,
-        "cat_name": "Categoria 26",
-        "cat_slug": "",
-        "cat_icon": "local_laundry_service",
-        "cat_count": ""
-    },
-    {
-        "id": 26,
-        "cat_name": "Categoria 27",
-        "cat_slug": "",
-        "cat_icon": "local_convenience_store",
-        "cat_count": ""
-    },
-    {
-        "id": 27,
-        "cat_name": "Categoria 28",
-        "cat_slug": "",
-        "cat_icon": "restaurant_menu",
-        "cat_count": ""
-    },
-    {
-        "id": 28,
-        "cat_name": "Categoria 29",
-        "cat_slug": "",
-        "cat_icon": "restaurant",
-        "cat_count": ""
-    },
-    {
-        "id": 29,
-        "cat_name": "Categoria 30",
-        "cat_slug": "",
-        "cat_icon": "dinner_dining",
-        "cat_count": ""
-    },
-    {
-        "id": 30,
-        "cat_name": "Categoria 31",
-        "cat_slug": "",
-        "cat_icon": "restaurant_menu",
-        "cat_count": ""
-    },
-    {
-        "id": 31,
-        "cat_name": "Categoria 32",
-        "cat_slug": "",
-        "cat_icon": "restaurant",
-        "cat_count": ""
-    },
-    {
-        "id": 32,
-        "cat_name": "Categoria 33",
-        "cat_slug": "",
-        "cat_icon": "dinner_dining",
-        "cat_count": ""
-    },
-    {
-        "id": 33,
-        "cat_name": "Categoria 34",
-        "cat_slug": "",
-        "cat_icon": "restaurant_menu",
-        "cat_count": ""
-    },
-    {
-        "id": 34,
-        "cat_name": "Categoria 35",
-        "cat_slug": "",
-        "cat_icon": "restaurant",
-        "cat_count": ""
-    },
-    {
-        "id": 35,
-        "cat_name": "Categoria 36",
-        "cat_slug": "",
-        "cat_icon": "dinner_dining",
-        "cat_count": ""
-    }        
+    }      
 ]
