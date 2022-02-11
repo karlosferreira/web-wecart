@@ -9,8 +9,9 @@
         width=500
     >
         <v-list two-line subheader>
-            <v-subheader inset>DETALHES DO PRODUTO</v-subheader>
             <v-progress-circular indeterminate color="primary" class="loading"></v-progress-circular>
+            <p class="loading-p">Carregando informações</p>
+            <!-- {{dataInfo}} -->
             <div class="request-box">
                 <v-list-tile v-for="request in requests" :key="request.id" avatar class="hr-bottom" v-bind:href="request.html_url"  target="_blank">
                     <v-list-tile-avatar>
@@ -30,6 +31,7 @@
 <script>
 export default {
   name: 'ProductInfo',
+  props: ['dataInfo'],
 //   components: {},
   data () {
     return {
@@ -53,6 +55,14 @@ export default {
         color: #fff!important;
         padding-left: 15px;
     }
+    .loading-p {
+        text-align: center;
+        padding-top: 14px;
+        font-weight: 600;
+    }
+    .list.list--subheader.list--two-line {
+        margin-top: 45%;
+    }    
     /* .subheader--inset #close-box{
         padding-right: 5px;
         margin-right: 5px;

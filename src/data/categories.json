@@ -1,63 +1,63 @@
 [
     {
         "id": 0,
-        "cat_name": "Promoções",
+        "cat_name": "Ofertas",
         "cat_slug": "",
-        "cat_icon": "liquor",
+        "cat_icon": "verified",
         "cat_count": ""
     },
     {
         "id": 1,
         "cat_name": "Bebidas",
         "cat_slug": "",
-        "cat_icon": "icecream",
+        "cat_icon": "liquor",
         "cat_count": ""
     },
     {
         "id": 2,
         "cat_name": "Congelados",
         "cat_slug": "",
-        "cat_icon": "restaurant",
+        "cat_icon": "ac_unit",
         "cat_count": ""
     },
     {
         "id": 3,
-        "cat_name": "Higiene",
+        "cat_name": "Sorvetes",
         "cat_slug": "",
-        "cat_icon": "cake",
+        "cat_icon": "icecream",
         "cat_count": ""
     },    
     {
         "id": 4,
         "cat_name": "Limpeza",
         "cat_slug": "",
-        "cat_icon": "lunch_dining",
+        "cat_icon": "cleaning_services",
         "cat_count": ""
     },
     {
         "id": 5,
-        "cat_name": "Grãos",
+        "cat_name": "Churrasco",
         "cat_slug": "",
-        "cat_icon": "local_cafe",
+        "cat_icon": "outdoor_grill",
         "cat_count": ""
     },
     {
         "id": 6,
-        "cat_name": "Condimentos",
+        "cat_name": "Animais",
         "cat_slug": "",
-        "cat_icon": "restaurant_menu",
+        "cat_icon": "pets",
         "cat_count": ""
     },
     {
         "id": 7,
         "cat_name": "Doces",
         "cat_slug": "",
-        "cat_icon": "delivery_dining",
+        "cat_icon": "hive",
         "cat_count": ""
     },
     {
         "id": 8,
-        "cat_name": "Salgados",
+        "cat_name": "Lanches",
         "cat_slug": "",
         "cat_icon": "fastfood",
         "cat_count": ""
@@ -66,21 +66,21 @@
         "id": 9,
         "cat_name": "Biscoitos",
         "cat_slug": "",
-        "cat_icon": "local_bar",
+        "cat_icon": "cookie",
         "cat_count": ""
     },
     {
         "id": 10,
         "cat_name": "Tabacaria",
         "cat_slug": "",
-        "cat_icon": "kitchen",
+        "cat_icon": "smoking_rooms",
         "cat_count": ""
     },
     {
         "id": 11,
-        "cat_name": "Conveniências",
+        "cat_name": "Conveniência",
         "cat_slug": "",
-        "cat_icon": "ramen_dining",
+        "cat_icon": "coffee",
         "cat_count": ""
     }      
 ]

@@ -8,41 +8,49 @@
                     grid-list-lg
                 >
                     <div class="row"><h2>Açougue</h2></div>
-                    <v-layout row wrap class="dash-list" v-bind:key="product.id" v-for="product in products">                        
-                        <ProductCard :product="product"/>
+                    <v-layout row wrap class="dash-list" v-bind:key="product.id" v-for="product in products" @click="handleSelectItem(product)">                        
+                        <ProductCard :product="product" />
                     </v-layout>
                 </v-container>
             </v-card>
-        </div>                      
+        </div>
+        <div>
+            <ProductInfo :dataInfo="dataInfo" />
+        </div>
     </div>
 </template>
 
 <script>
 import ProductCard from '@/components/ProductCard';
+import ProductInfo from '@/components/ProductInfo';
 
 import products from '@/data/products.json';
 
 export default {
     name: 'list-results',
     components: {
-        ProductCard
+        ProductCard,
+        ProductInfo
     },
     data () {
         return{
-            products
+            products,
+            dataInfo: ''
         }
     },
     created: function() {
-        this.$http.get('https://api.github.com/search/repositories?q=language:java')
-        .then(response => {
-            this.sources = response.body.items
-            // console.log(response.body.items)
-        })
+        this.$http.get('')
         .then(function(){
             document.querySelector('.dash-loading').style.display = 'none'
             document.querySelector('.full-loading').style.display = 'none'
             document.querySelector('.loader-box').style.display = 'block'
         })
+    },
+    methods: {
+        handleSelectItem(item){
+            this.dataInfo = item;
+            alert(item.item_name)
+        }
     }
 }
 </script>
