@@ -39,7 +39,7 @@ export default {
         }
     },
     created: function() {
-        this.$http.get('')
+        this.$http.get()
         .then(function(){
             document.querySelector('.dash-loading').style.display = 'none'
             document.querySelector('.full-loading').style.display = 'none'
